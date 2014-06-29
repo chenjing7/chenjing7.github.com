@@ -110,24 +110,32 @@ CSS使用的是{}，所以用/*说明*/
 </article>
 
 
+<nav id="pagination" >
+    
+    <a href="/2014/06/29/2014:6:29/" class="alignleft prev" >上一页</a>
+    
+    
+    <a href="/2014/06/28/扶梯/" class="alignright next" >下一页</a>
+    
+    <div class="clearfix"></div>
+</nav>
 <section id="comment">
-  <h1 class="title">留言</h1>
-
-  
-      <div id="fb-root"></div>
-<script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=123456789012345";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<div class="fb-comments" data-href="http://yoursite.com/2014/06/28/2014:6:28/" data-num-posts="5" data-width="840" data-colorscheme="light"></div>
-      
-  
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"777777"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
 </section>
 
 </div></div>
@@ -143,7 +151,7 @@ CSS使用的是{}，所以用/*说明*/
   
     <li><a href="/tags/生活/">生活</a><small>2</small></li>
   
-    <li><a href="/tags/记录/">记录</a><small>2</small></li>
+    <li><a href="/tags/记录/">记录</a><small>3</small></li>
   
   </ul>
 </div>
